@@ -1,0 +1,400 @@
+@import url("//fonts.googleapis.com/css?family=Indie+Flower");
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    grid-column: span;
+    border-radius: 2rem;
+    margin: 1vw;
+    gap:20px;
+    background-color: #08243bc7; 
+    box-shadow: 0 0 15px rgb(0, 0, 0);  
+    z-index: 10; 
+}
+.formulario2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.541);    
+    width: 77.5%;
+    height: 88px;  
+    min-height: 88px;  
+    color: burlywood;
+        overflow: auto;
+        top: 9rem;
+        position: relative;
+        left: 108px;
+        border-radius: 10px 10px 10px 10px;
+        user-select:none;
+       z-index: 9;     
+     
+}
+.formulario3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.541);    
+        width: 77.5%;
+        height: 88px;
+    min-height: 88px;
+    user-select:none;
+        overflow: auto;
+        bottom:11.5rem;
+        position: relative;
+        left: 108px;
+        border-radius: 10px 10px 10px 10px;
+       z-index: 9;       
+     
+}
+
+.cajaplataforma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 130px;
+    height: 80px;
+    min-width: 130px;
+    min-height: 70px;
+    overflow: hidden; 
+    font-size: 4rem;
+    border-radius: 0.5rem;
+    margin: 0.2rem 0.2rem 0.1rem 0.1rem;
+}
+.formulario1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:  150px;
+}
+.formulario__label{
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+.formulario__input{
+    width: 75%;
+    background-color: rgba(255, 239, 215, 0.445);
+    font-size: 2rem;
+    border:3px solid transparent;
+    border-radius: 3px;
+    height: 2rem;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition:  .3s ease all;
+    position: relative;
+    bottom: 60px;
+}
+.formulario__input__des{
+    width: 60%;
+    background: rgba(255, 255, 255, 0.239);
+    font-size: 2rem;
+    border:3px solid transparent;
+    border-radius: 3px;
+    height: 2rem;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition:  .3s ease all;
+    position: relative;
+    top: 0.5rem;
+    z-index: 2;
+}
+.formulario__input:focus{
+    border: 3px solid #0075FF;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.generos{
+    font-size: 1rem;
+}
+
+.inputnombre{
+    width: 25vw;
+    background-color: rgb(0, 238, 255);
+    font-size: 2rem;
+    border:3px solid transparent;
+    border-radius: 3px;
+    height: 2rem;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition:  .3s ease all;
+    position: relative;
+    left:  0.4vw;
+    z-index: 10;
+    font-family: "Indie Flower";
+}
+.labelnombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+    font-size: 20px;
+    color: mintcream;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.inputdescripcion{
+    width: 50%;
+    background-color: rgb(0, 238, 255);
+    font-size: 1.3rem;
+    border:3px solid transparent;
+    border-radius: 3px;
+    height: 5rem;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition:  .3s ease all;
+    position: relative;
+    left: 0.5vw;
+    top: 1rem;
+    font-family: "Indie Flower";
+    z-index: 10;
+}
+.labeldesciprcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+    font-size: 20px;
+    top: 0.7rem;
+    color: mintcream;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.inputlanzamiento{
+    width: 38vw;
+    min-width: 38vw;
+    background-color: rgb(0, 238, 255);
+    font-size: 1.3rem;
+    border:3px solid transparent;
+    border-radius: 3px;
+    height: 3rem;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition:  .3s ease all;
+    position: relative;
+    left: 0.5vw;
+    bottom: 5rem;    
+    z-index: 10;
+    font-family: "Indie Flower";
+}
+.labellanzamiento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+    font-size: 20px;
+    bottom: 5rem;
+    color: mintcream;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.inputimagen{
+    width: 38vw;
+    background-color: rgb(0, 238, 255);
+    font-size: 1.3rem;
+    border:3px solid transparent;
+    border-radius: 3px;
+    height: 3rem;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition:  .3s ease all;
+    position: relative;
+    top: 10rem;    
+    left:  0vw;
+    z-index: 10;
+    font-family: "Indie Flower";
+}
+.labelimagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+    font-size: 20px;
+    top: 9.8rem;
+    color: mintcream;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.labelplataforma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+    font-size: 20px;
+    bottom: 11.5rem;
+    color: mintcream;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.labelgeneros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+    font-size: 20px;
+    top: 9.1rem;
+    color: mintcream;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.inputrating{
+    width: 35vw;
+    background-color: rgb(0, 238, 255);
+    font-size: 1.3rem;
+    border:3px solid transparent;
+    border-radius: 3px;
+    height: 3rem;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition:  .3s ease all;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-clamp:unset;
+    top: 13rem;
+    font-family: "Indie Flower";
+    right:  0vw;
+    z-index: 10;
+}
+.inputrating2{
+    width: 30vw;
+    background-color: rgb(0, 238, 255);
+    font-size: 1.3rem;
+    border:3px solid transparent;
+    border-radius: 3px;
+    height: 3rem;
+    line-height: 45px;
+    padding: 0 40px 0 10px;
+    transition:  .3s ease all;
+    position: relative;
+    font-family: "Indie Flower";
+    top: 3rem;    
+    left:  0vw;
+    z-index: 10;
+}
+.labelrating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 11;
+    font-size: 20px;
+    top: 12.8rem;
+    color: mintcream;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.boton{
+    position: relative;
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    color: #ffffff;
+    width: 13vw;
+    height: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    text-decoration: none;
+    font-size: 16px;
+    z-index: -1;
+    transition: 0.2s;
+    background: rgb(255, 0, 0);
+    
+}
+
+.boton:hover{
+    color: #255784;
+    background: #5df321;
+    box-shadow: 0 0 1rem #5df321, 0 0 3kkkkkkkkkkkkkkkkkkkkkkrem #5df321, 0 0 3rem #5df321;
+    transition-delay: 0.2s;
+}
+
+@media(max-width: 955px) {
+    
+    .formulario3{
+        left: 8vw;
+    }
+    .formulario2{
+        left: 8vw;
+    }
+    .formulario1{
+        left: 1vw;
+    }
+}
+::placeholder{
+    font-family: "Indie Flower";
+color: rgba(0, 0, 0, 0.829);
+}
+.cajacambio{    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 0, 0);
+    z-index: -1;    
+    transition: 0.4s;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select:none;
+    font-family: "Indie Flower";
+}
+.inputcambio{
+    opacity: 0;
+    position: absolute;
+}
+.inputcambio:checked ~.cajacambio{
+    background-color: rgb(0, 255, 13);
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+}
+.formulario3::-webkit-scrollbar,
+.formulario2::-webkit-scrollbar {
+    width: 12px;
+}
+.formulario3::-webkit-scrollbar-scroll,
+  .formulario2::-webkit-scrollbar-scroll {
+    width: 192px;
+}
+.formulario3::-webkit-scrollbar-track,
+.formulario2::-webkit-scrollbar-track {
+  background: #009B96;
+  border-radius: 0px 10px 10px 0px;
+}
+.formulario3::-webkit-scrollbar-track:hover,
+.formulario3::-webkit-scrollbar-track:active,
+.formulario2::-webkit-scrollbar-track:hover,
+.formulario2::-webkit-scrollbar-track:active {
+  background: #009B96;
+}
+
+.formulario3::-webkit-scrollbar-thumb,
+.formulario2::-webkit-scrollbar-thumb {
+  background: #007084;
+  border-radius: 0px 10px 10px 0px;
+}
+.formulario3::-webkit-scrollbar-thumb:active,
+.formulario2::-webkit-scrollbar-thumb:active {
+  background-color: #009B96;
+}
+.formulario3::-webkit-scrollbar-thumb:hover,
+.formulario2::-webkit-scrollbar-thumb:hover {
+  background: #007084;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}

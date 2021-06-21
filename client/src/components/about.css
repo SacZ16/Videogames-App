@@ -1,0 +1,237 @@
+@import url("//fonts.googleapis.com/css?family=Rock+Salt");
+
+.cajanombre{
+    width: 180px;
+    height: 50px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 280px;
+    left: 700px;
+    color: darkgreen;
+    font-size: 40px;
+    font-family: "Rock Salt";
+    animation: animats 2s linear infinite;
+    -webkit-text-stroke: 2px black;    
+    user-select:none;
+}
+.cajaapellido{
+    width: 180px;
+    height: 50px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 280px;
+    left: 200px;
+    color: darkgreen;
+    font-size: 40px;
+    font-family: "Rock Salt";
+    animation: animats 2s linear infinite;
+    -webkit-text-stroke: 2px black;    
+    user-select:none;
+}
+
+.a{
+    animation: a 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes a {
+    0%{font-size: 420px;opacity: 0;}
+    3.33%{opacity: 0;}
+    3.331%{opacity: 1;}
+    9.331%{font-size: 40px;opacity: 1;}
+    89.91%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.l{
+    animation: l 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes l {
+    3.331%{font-size: 420px;}    
+    6.66%{opacity: 0;}
+    6.661%{opacity: 1;}
+    12.661%{font-size: 40px;opacity: 1;}
+    86.58%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.e{
+    animation: e 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes e {
+    6.661%{font-size: 420px;}    
+    9.99%{opacity: 0;}
+    9.991%{opacity: 1;}
+    15.991%{font-size: 40px;opacity: 1;}
+    83.25%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.x{
+    animation: x 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes x {
+    9.991%{font-size: 420px;}    
+    13.32%{opacity: 0;}
+    13.321%{opacity: 1;}
+    19.321%{font-size: 40px;opacity: 1;}
+    79.92%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.i{
+    animation: i 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes i {
+    13.321%{font-size: 420px;}    
+    16.65%{opacity: 0;}
+    16.651%{opacity: 1;}
+    22.651%{font-size: 40px;opacity: 1;}
+    76.59%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.s{
+    animation: s 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes s {
+    16.651%{font-size: 420px;}    
+    19.98%{opacity: 0;}
+    19.981%{opacity: 1;}
+    25.981%{font-size: 40px;opacity: 1;}
+    73.26%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.l2{
+    animation: l2 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes l2 {
+    19.981%{font-size: 420px;opacity: 0;}
+    23.31%{opacity: 0;}
+    23.311%{opacity: 1;}
+    29.311%{font-size: 40px;opacity: 1;}
+    69.93%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.e2{
+    animation: e2 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes e2 {
+    23.31%{font-size: 420px;}    
+    26.64%{opacity: 0;}
+    26.641%{opacity: 1;}
+    32.641%{font-size: 40px;opacity: 1;}
+    66.60%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.n{
+    animation: n 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes n {
+    26.641%{font-size: 420px;}    
+    29.97%{opacity: 0;}
+    29.971%{opacity: 1;}
+    35.971%{font-size: 40px;opacity: 1;}
+    63.27%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.o{
+    animation: o 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes o {
+    29.971%{font-size: 420px;}    
+    33.30%{opacity: 0;}
+    33.301%{opacity: 1;}
+    39.301%{font-size: 40px;opacity: 1;}
+    59.94%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.r{
+    animation: r 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes r {
+    33.30%{font-size: 420px;}    
+    36.63%{opacity: 0;}
+    36.631%{opacity: 1;}
+    42.631%{font-size: 40px;opacity: 1;}
+    56.61%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.o2{
+    animation: o2 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes o2 {
+    36.63%{font-size: 420px;}    
+    39.96%{opacity: 0;}
+    39.961%{opacity: 1;}
+    45.961%{font-size: 40px;opacity: 1;}
+    53.28%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+.c{
+    animation: c 10s infinite;
+    font-size: 460px;
+    opacity: 0;
+}
+@keyframes c {
+    39.96%{font-size: 420px;}    
+    43.29%{opacity: 0;}
+    43.291%{opacity: 1;}
+    49.291%{font-size: 40px;opacity: 1;}
+    49.95%{font-size: 40px;opacity: 1;}
+    100%{font-size: 420px;opacity: 0;}
+}
+
+.imagen{
+width: 120px;
+height: 70px;
+z-index: 10;
+color: rgb(255, 0, 0);
+    text-decoration: none;    
+    user-select:none;
+}
+.imagen2{
+width: 80px;
+height: 70px;
+z-index: 10;
+color: rgb(255, 0, 0);
+    text-decoration: none;    
+    user-select:none;
+}
+.nose{
+    position: relative;
+    z-index: 20;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(9, 255, 0);
+    -webkit-text-stroke: 1px black;    
+    user-select:none;
+}
+@keyframes animats {
+    0%{color: #0f0;filter: hue-rotate(0deg);}
+    100%{color: #0f0;filter: hue-rotate(360deg);}
+}

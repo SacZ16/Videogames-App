@@ -1,0 +1,52 @@
+
+.text{
+    position: relative;
+    bottom:80px;
+    font-size: 100px;
+    z-index: 10;
+    -webkit-text-stroke: 2px black;
+    Font-family: 8-BIT WONDER, monaco, monospace;
+    color: darkturquoise;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+.text2{
+    text-decoration: none;
+    position: relative;
+    bottom: 90px;
+    font-size: 120px;
+    z-index: 10;
+    -webkit-text-stroke: 2px black;
+    Font-family: 8-BIT WONDER, monaco, monospace;
+    color: darkturquoise;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    animation: cambiar 2s infinite;
+}
+.logo{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    filter: drop-shadow(0 1px 5px rgb(0, 0, 0));
+}
+.fondo{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-attachment: fixed;
+    z-index: 30;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/014/665/033/original/yargon-kerman-webp-net-gifmaker-39.gif?1544919451);
+}
+
+@keyframes cambiar {
+    0%{opacity: 0;}    
+    59%{opacity: 0;}    
+    60%{opacity: 100;
+        filter: hue-rotate(0deg)}    
+    100%{opacity:100;
+        filter: hue-rotate(360deg);
+    }
+}

@@ -1,0 +1,244 @@
+@import url("//fonts.googleapis.com/css?family=Indie+Flower");
+.molde{
+    overflow: hidden;
+    width: 10vw;
+    height: 10vw;    
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 3vw; 
+    box-shadow: 2px 2px 3px 3px #000000;
+    margin: 1vw;
+    background-color: black;
+    z-index: 5;
+    position: relative;
+    left: 0.2vw;
+    top: 0.3vw;
+    box-shadow: 0 0 10px #0f0,
+}
+.molde2{
+    overflow: hidden;
+    min-width: 130px;
+    min-height: 120px;
+    width: 13.3vw;
+    height: 12.24vw;
+    margin: 0.1vw;
+    position: relative;
+    z-index: 5;
+}
+.imagen{
+    position: relative;
+    right: 14px;
+    bottom: 14px;
+    width: 12vw;
+    height: 11vw;
+    min-width: 112px;
+    min-height: 110px;
+    border-radius: 3vw; 
+    margin: 1vw;
+    z-index: 2;
+    
+}
+.molde2:hover {
+  z-index: 5;
+}
+.molde2:hover .name {
+    text-decoration: none;
+    position: relative;    
+    bottom: 15.5vw;
+    display: flex;
+    opacity: 100%;
+}
+.molde2:hover .molde {
+    box-shadow: 0px 0px 0px 0px #000000;
+}
+.molde2:hover .generos {
+    text-decoration: none;
+    color: blanchedalmond;
+    position: relative;
+    bottom: 18vw;
+    display: flex;
+    opacity: 100%;
+}
+.molde2:hover .imagen {
+    opacity: 30%;
+}
+.molde2:hover .rating{
+    opacity: 100%;
+}
+.molde2:hover .rating2{
+    opacity: 100%;
+}
+.molde2:hover .circle{
+    opacity: 100%;
+}
+.molde2:hover .circle::before{
+    opacity: 100%;
+}
+.name{
+    
+    color: #0f0;
+    width: 9vw;
+    height: 10vw;
+    min-width: 90px;
+    min-height: 100px;
+position: relative;
+left: 0.4vw;
+bottom: 20vw;
+z-index: 2;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: bottom 0.3s ease-out;
+font-family: "Indie Flower";
+    text-shadow: rgb(128, 128, 128) 0.1em 0.1em 0.2em;    
+    animation: animatee 5s linear infinite; 
+    opacity: 0%;
+}
+.generos{
+    text-decoration: none;
+    width: 10vw;
+    height: 11vw;
+    background-color: #007084a4;
+    position: relative;
+    left: 0vw;
+    bottom: 10vw;
+    z-index: 2;
+    display: flex;
+    opacity: 0%;
+    justify-content: center;
+    color:#0f0;
+    font-family: "Indie Flower";    
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;    
+    animation: animate 5s linear infinite; 
+    animation: animateee 5s linear infinite; 
+    transition: bottom 0.3s ease-out;
+}
+.decoration{
+    text-decoration: none;
+    z-index: 7;
+}
+.rating{
+    width: 8vw;
+    height: 1vw;
+    position: relative;
+    left: 5.8vw;
+    bottom: 6.8vw;
+    opacity: 0;
+    transform: rotate(270deg);
+    z-index: 8;
+}
+.rating2{
+    width: 3vw;
+    height: 2vw;
+    position: relative;
+    left: 10.6vw;
+    bottom: 4.2vw;
+    opacity: 0;
+    z-index: 8;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.698);
+}
+.circle{
+    position: absolute; 
+    width: 1vw;
+    height: 11vw;
+    min-width: 80px;
+    min-height: 110px;
+    z-index: 6;
+}
+.circle:before{
+    content: "";
+    opacity: 0%;
+    position: absolute;
+    left: 0.7rem;
+    bottom: 14.8rem;
+    width: 10vw;
+    height: 9.9vw;
+    min-width: 95px;
+    min-height: 90px;
+    border-radius: 3.5vw; 
+    border:5px solid #0f0;
+    box-shadow: 0 0 10px #0f0,
+                inset 0 0 10px #0f0;
+    animation: animate 5s linear infinite;    
+    z-index: 6;
+}
+@keyframes animate {
+    0%
+    {
+        box-shadow: 0 0 10px #0f0,
+                    inset 0 0 10px #0f0;
+                    border:5px solid #0f0;
+                    filter: hue-rotate(0deg);
+    }
+    20%
+    {
+        box-shadow: 0 0 8px #0f0,
+                    inset 0 0 8px #0f0;
+    }
+    40%
+    {
+        box-shadow: 0 0 10px #0f0,
+                    inset 0 0 10px #0f0;
+    }
+    60%
+    {
+        box-shadow: 0 0 8px #0f0,
+                    inset 0 0 8px #0f0;
+    }
+    80%
+    {
+        box-shadow: 0 0 10px #0f0,
+                    inset 0 0 10px #0f0;
+    }    
+    100%
+    {
+        box-shadow: 0 0 9px #0f0,
+                    inset 0 0 9px #0f0;
+                    border:5px solid #0f0;
+                    filter: hue-rotate(360deg);
+                    
+    }
+}
+@keyframes animateee {
+    0%
+    {
+        box-shadow: 0 0 10px #0f0,
+                    inset 0 0 10px #0f0;
+                    color: #0f0;
+                    filter: hue-rotate(0deg);
+    }
+    20%
+    {
+        box-shadow: 0 0 8px #0f0,
+                    inset 0 0 8px #0f0;
+    }
+    40%
+    {
+        box-shadow: 0 0 10px #0f0,
+                    inset 0 0 10px #0f0;
+    }
+    60%
+    {
+        box-shadow: 0 0 8px #0f0,
+                    inset 0 0 8px #0f0;
+    }
+    80%
+    {
+        box-shadow: 0 0 10px #0f0,
+                    inset 0 0 10px #0f0;
+    }    
+    100%
+    {
+        box-shadow: 0 0 9px #0f0,
+                    inset 0 0 9px #0f0;
+                    color: #0f0;
+                    filter: hue-rotate(360deg);
+                    
+    }
+}
+@keyframes animatee {
+    0%{color: #0f0;filter: hue-rotate(0deg);}
+    100%{color: #0f0;filter: hue-rotate(360deg);}
+}
